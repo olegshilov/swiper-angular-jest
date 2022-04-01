@@ -1,0 +1,14 @@
+<div class="swiper-example">
+  <swiper
+    [config]="config"
+    (swiper)="onSwiper($event)"
+    (slideChange)="onSlideChange()"
+  >
+    <ng-template swiperSlide><div class="slide">Slide 1</div></ng-template>
+    <ng-template swiperSlide><div class="slide">Slide 2</div></ng-template>
+    <ng-template swiperSlide><div class="slide">Slide 3</div></ng-template>
+    <ng-template swiperSlide><div class="slide">Slide 4</div></ng-template>
+    <ng-template swiperSlide><div class="slide">Slide 5</div></ng-template>
+    <ng-template swiperSlide><div class="slide">Slide 6</div></ng-template>
+  </swiper>
+</div>
